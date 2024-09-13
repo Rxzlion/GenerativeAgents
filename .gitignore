@@ -1,0 +1,51 @@
+# Ignore build files
+**/Binaries/**
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+Build/
+/Content/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore compiled assets
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+*.dSYM
+*.apk
+*.ipa
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.idb
+*.opendb
+*.tlog
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# But don't ignore this specific path
+!Plugins/KuzuDB/Binaries/
+!Plugins/KuzuDB/Binaries/Win64/
+!Plugins/KuzuDB/Binaries/Win64/kuzu_shared.dll
